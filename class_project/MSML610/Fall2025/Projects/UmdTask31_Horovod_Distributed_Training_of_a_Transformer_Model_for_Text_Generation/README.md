@@ -146,7 +146,7 @@ HOROVOD_GPU_OPERATIONS=NCCL pip install horovod[pytorch]
 * Uses Horovod for multi-GPU training
 * Implements checkpointing, mixed precision, and logging
 
-Due to GPU unavailability, **full training epochs could not be completed**, but the training loop, Horovod synchronization, and fault tolerance mechanisms were fully implemented and validated.
+Due to UMD Zaratan h100 GPU unavailability, **full training epochs could not be completed**, but the training loop, Horovod synchronization, and fault tolerance mechanisms were fully implemented and validated.
 
 ### Step 3: Text Generation
 
@@ -192,7 +192,7 @@ Logging and checkpoint mechanisms were validated during smoke tests and partial 
 
 ## Zaratan HPC Cluster Setup
 
-* Account: msml610-class
+* Account: *classified*
 * Partition: gpu
 * GPU type: H100
 * Configuration: multi-GPU single-node training
